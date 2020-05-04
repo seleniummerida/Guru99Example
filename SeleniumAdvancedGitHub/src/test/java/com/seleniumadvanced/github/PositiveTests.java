@@ -50,7 +50,7 @@ public class PositiveTests {
 				"logOutButton is not visible.");
 
 		// Successful log in message
-		String expectedSuccessMessage = "You logged into a secure area!";
+		String expectedSuccessMessage = "You logged into a secure area!!";
 		String actualSuccessMessage = driver.findElement(By.id("flash")).getText();
 		Assert.assertTrue(actualSuccessMessage.contains(expectedSuccessMessage),
 				"actualSuccessMessage does not contain expectedSuccessMessage\nexpectedSuccessMessage: "
