@@ -6,4 +6,5 @@
 			<class name="com.seleniumadvanced.github.PositiveTests" />
 		</classes>
 	</test>	
+	
 </suite>
